@@ -17,7 +17,7 @@ function insertIndex(arr, sizeofArray, index, element)
         arr[sizeofArray-1]= -1;
     }
     console.log(arr)*/
-    arr.splice(3,0,3)
+    arr.splice(index,0,element); 
     console.log(arr)
 }
 /* Both the codes are working properly but somehow the above one has given given time complexity error though it is the same one*/
