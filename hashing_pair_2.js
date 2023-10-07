@@ -8,7 +8,7 @@ function sumExists(arr, N, sum) {
        {
            obj1[arr[i]]=i
            temp_sum=sum-arr[i]
-           console.log(temp_sum + " " + arr[i])
+           
            if(obj1[temp_sum]!=undefined && temp_sum!=arr[i])
            {
                return 1
